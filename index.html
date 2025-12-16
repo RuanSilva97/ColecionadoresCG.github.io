@@ -2,30 +2,87 @@
 <html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
-    <title>Plano de Mídia - CCG Live</title>
+    <title>Colecionadores CG - Links</title>
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <style>
         body {
             margin: 0;
-            padding: 20px;
-            background-color: #ffffff;
+            padding: 30px 15px;
+            font-family: Arial, Helvetica, sans-serif;
+            background-image: url('fundo.jpg');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
             display: flex;
             justify-content: center;
-            align-items: flex-start;
         }
 
-        img {
-            max-width: 420px;      /* tamanho ideal para celular */
+        .container {
+            max-width: 420px;
             width: 100%;
-            height: auto;
+            text-align: center;
+        }
+
+        /* LOGO */
+        .logo {
+            width: 100%;
+            max-width: 280px;
+            margin: 0 auto 25px;
+        }
+
+        /* BOTÕES */
+        .btn {
+            display: block;
+            width: 100%;
+            padding: 15px;
+            margin-bottom: 12px;
+            text-decoration: none;
+            font-size: 16px;
+            font-weight: bold;
+            color: #ffffff;
+            background-color: #000000;
+            border-radius: 8px;
+        }
+
+        .btn:hover {
+            opacity: 0.85;
+        }
+
+        /* PLANO DE MÍDIA */
+        .plano {
+            width: 100%;
+            max-width: 380px;
+            margin: 30px auto 0;
+            border-radius: 6px;
         }
     </style>
 </head>
 <body>
 
-    <img src="plano-de-midia.jpg" alt="Plano de Mídia CCG Live">
+    <div class="container">
+
+        <!-- LOGO DO GRUPO -->
+        <img src="logo-ccg.jpg" alt="Colecionadores CG" class="logo">
+
+        <!-- BOTÕES -->
+        <a class="btn" href="https://www.instagram.com/colecionadorescg?igsh=ajVtN3R0cmg0MjA1&utm_source=qr">
+            Instagram
+        </a>
+
+        <a class="btn" href="https://youtube.com/@colecionadorescg?si=BcJ_F_j_401P6m2c">
+            YouTube
+        </a>
+
+        <a class="btn" href="https://youtube.com/@colecionadorescg?si=BcJ_F_j_401P6m2c">
+            WhatsApp
+        </a>
+
+        <!-- PLANO DE MÍDIA -->
+        <img src="plano-de-midia.jpg" alt="Plano de Mídia" class="plano">
+
+    </div>
 
 </body>
 </html>
